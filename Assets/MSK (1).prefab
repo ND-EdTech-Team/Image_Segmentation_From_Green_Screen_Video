@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2493078597165717785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2493078597165717784}
+  - component: {fileID: 2493078597165717862}
+  - component: {fileID: 2493078597165717863}
+  m_Layer: 5
+  m_Name: MSK (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2493078597165717784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2493078597165717785}
+  m_LocalRotation: {x: 0.08939174, y: -0.33698317, z: -0.92912483, w: -0.12320105}
+  m_LocalPosition: {x: 1.5326626, y: -1.1997637, z: -1.0062293}
+  m_LocalScale: {x: 0.33333337, y: 0.33333328, z: 0.33333334}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2493078597165717862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2493078597165717785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d963f226591f3ee4e8cce412c1177bd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _components:
+  - {fileID: 2493078597165717863}
+--- !u!114 &2493078597165717863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2493078597165717785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5ab7ed08480ec43aaa221eea1bd2e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shader: {fileID: 4800000, guid: f8b5d149354f6fd48ac0a888290b886d, type: 3}
+  _bgColor: {r: 0.42352942, g: 0.44705883, b: 0.4745098, a: 1}
+  _keyColor: {r: 0, g: 1, b: 0, a: 1}
+  _dChroma: 0.53
+  _dChromaT: 0.22
+  _chroma: 0.844
+  _luma: 0.2
+  _saturation: 0.82
+  _alpha: 0
